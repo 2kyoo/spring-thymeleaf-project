@@ -1,9 +1,13 @@
 package org.p2kyoo.springthymeleafproject.model;
 
-public class Course {
-    private String courseName;
+import java.util.List;
 
+public class Course extends BasedEntity{
+
+    private String courseName;
     private int coursePrice;
+    private List<Student> students;
+    private List<Master> masters;
 
 
 }

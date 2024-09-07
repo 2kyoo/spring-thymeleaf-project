@@ -1,16 +1,14 @@
 package org.p2kyoo.springthymeleafproject.model;
 
+import org.p2kyoo.springthymeleafproject.model.enums.Gender;
+
 import java.time.LocalDate;
 
-public class Person {
+public class Person extends Human{
 
-    private String firstname;
-
-    private String lastname;
+    private Gender gender;
 
     private int age;
-
-    private String phone;
 
     private LocalDate dob;
 
